@@ -2,6 +2,30 @@
 
 (##) Introduction
 
-This tutorial is to show you how to conduct meta analysis in R. 
+This tutorial is to show you how to conduct meta analysis in R. Meta analysis has ten steps, each of which should be conducted in one step after another. These steps are as follows:
+
+Steps of meta analysis:
+- Frame a pico question
+- Search literature databases
+- Abstract studies into a database
+- Test for the presence of heterogeneity
+- Grade studies on their quality based on risk of bias
+- Pool the results
+- Construct a forest plot
+- Test for publication bias
+- Run sensitivity analyses or subgroup analyses
+- Run meta-regression
+
+We will conduct all these steps using the [R](https://www.r-project.org) statistical computing software. The codes are shown in code blocks. You can copy and paste the codes to a [jupyter notebook](http://www.projectjupyter.org) that runs R software as an inferior process, or you can use this on an Rstudio. For online, try [rstudio.cloud](https://rstudio.cloud). For more details about meta-analysis, read [#1], we will follow the codes provided in the book for the meta analysis. You will also need to install the following packages in R for best results:
+
+Packages in R:
+1. meta: install with `install.packages("meta")
+2. metafor: install with `install.packages("metafor")
+
+(##) Packages
+
+
+[#1]: Chen, D.-G. (Din), & Peace, K. E. (2013). Applied meta-analysis with R. Boca Raton, Fla.: CRC Press.
+
 
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
